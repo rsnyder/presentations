@@ -1,10 +1,22 @@
 class: title
 
 # AI and You
+
+.left-col[
 ## Understanding and Using Artificial Intelligence
 
-**SCHH Computer Club**
-Sun City Hilton Head · 2025
+**SCHH Computer Club Hour**   
+April 10, 2026
+
+Ron Snyder
+]
+
+.right-col.center[
+.large[![](assets/qrcode.png)]
+]
+
+<p style="clear:both;"></p>
+
 
 ---
 
@@ -12,8 +24,6 @@ class: section
 
 # Part 1
 ## Introduction & Key Concepts
-
-*~30 minutes*
 
 ???
 Welcome everyone. Quick housekeeping — we'll take a short break between Part 1 and Part 2. Part 1 is concepts and context; Part 2 is hands-on tool demos. Questions welcome throughout, but I'll also pause at natural breaks.
