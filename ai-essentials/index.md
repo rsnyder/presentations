@@ -17,7 +17,6 @@ Ron Snyder
 
 <p style="clear:both;"></p>
 
-
 ---
 
 class: section
@@ -503,7 +502,7 @@ Perplexity is also a useful "training wheels" tool — the citations make it inh
 
 class: demo
 
-# ChatGPT & Claude — Conversational AI in Depth
+# ChatGPT, Claude & Gemini — Conversational AI in Depth
 
 **Best for: writing, explaining, brainstorming, analyzing, drafting**
 
@@ -514,7 +513,7 @@ class: demo
 - Answer follow-up questions and adjust based on feedback
 - Summarize long documents or articles you paste in
 
-## Live demo ideas
+## Possible uses
 - Write a letter to an insurance company disputing a claim
 - Explain a medical term a doctor used
 - Plan a week of healthy dinners based on dietary needs
@@ -563,6 +562,33 @@ Let the audience participate. Ask for suggestions — "what should we generate?"
 The deepfake callback at the bottom is intentional — it connects the fun of image generation back to the important caution from Part 1. The same technology that makes this fun is the technology behind fake images designed to deceive. It's a good moment for that connection to land naturally rather than feeling preachy.
 
 Note on tool names: double-check the specific product names before the presentation — both Google and OpenAI update their image tool branding frequently.
+
+---
+
+class: demo
+
+# Example: Photo Restoration
+
+.left-col.viewer.condense[
+What AI photo restoration can do:
+
+- Repair old family photos — remove scratches, tears, water damage, and fading
+- Sharpen blurry or low-resolution images
+- Colorize black-and-white photos automatically
+- Fill in missing or damaged areas of an image
+
+The caveats — **important to understand**:
+
+- AI is making an educated guess about what was there — it is not recovering lost information
+- Colorization in particular is invented, not historical
+- Filled-in details (a missing face, a torn corner) are plausible reconstructions, not the original
+- The result can look strikingly realistic while being partly fictional
+- Always preserve the original unedited file — the restored version is an interpretation, not a replacement
+]
+
+.right-col.viewer.center[
+.full[<iframe src="https://spartina.io/assets/components/image-compare.html?before=https://www.spartina.io/assets/posts/ai-photo-restoration/RDS-before.jpg&after=https://www.spartina.io/assets/posts/ai-photo-restoration/RDS-after.png&caption=Ron's%20Dad&position=50&max" style="border:0;aspect-ratio:1;"></iframe>]
+]
 
 ---
 

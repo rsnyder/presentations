@@ -197,10 +197,20 @@
     line-height: 1.3;
   }
 
-  .small img { width: 33%; }
-  .medium img { width: 50%; }
-  .large img { width: 75%; }
-  .full img { width: 100%; }
+  .small img, .small iframe { width: 33%; }
+  .medium img, .medium iframe { width: 50%; }
+  .large img, .large iframe { width: 75%; }
+  .full img, .full iframe { width: 100%; }
+
+  .left-col.viewer {
+    width: 45% !important;
+  }
+  .right-col.viewer {
+    width: 53% !important;
+  }
+  .condense {
+    font-size: 0.9em;
+  }
 
   span.logo {
     width: 50px;
