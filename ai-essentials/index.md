@@ -1,31 +1,35 @@
 class: title
 
+class: center, middle
+
+.full[![](assets/intro-image.png)]
+
+---
+
 # AI and You
 
-.left-col[
 ## Understanding and Using Artificial Intelligence
+
+.right.small[
+![](assets/qrcode.png)
+]
 
 **SCHH Computer Club Hour**   
 April 10, 2026
 
-Ron Snyder
-]
+Ron Snyder ([ron@snyderjr.com](mailto:ron@snyderjr.com))
 
-.right-col.center[
-.large[![](assets/qrcode.png)]
-]
+[https://rsnyder.github.io/presentations/ai-essentials.pdf](https://rsnyder.github.io/presentations/ai-essentials.pdf)
 
 <p style="clear:both;"></p>
 
 ---
 
-class: section
+class: title
 
-# Part 1
-## Introduction & Key Concepts
+class: center, middle
 
-???
-Welcome everyone. Quick housekeeping — we'll take a short break between Part 1 and Part 2. Part 1 is concepts and context; Part 2 is hands-on tool demos. Questions welcome throughout, but I'll also pause at natural breaks.
+.full[![](assets/concepts.png)]
 
 ---
 
@@ -148,27 +152,23 @@ If you're presenting live and connected to the internet, this is a good place fo
 
 # Context & Memory
 
-## Within a single conversation
+## Within a conversation
 The AI remembers **everything said so far** — you can refer back and it follows along
 
 ## Between conversations
-**Fresh start every time** — when you close the chat and open a new one, it remembers nothing
+**ChatGPT**, **Claude** and **Gemini** all remember information about you across sessions; you don't have to re-introduce yourself each time
 
-## The analogy
-> A brilliant assistant with excellent short-term memory and no long-term memory. Brilliant for the length of a conversation. Blank slate tomorrow.
+- **Memory is not perfect or complete.**  It retains highlights and preferences, not a word-for-word transcript of every conversation
+- **You are in control.**  You can view what it remembers, correct it, or delete it entirely in settings
+- **Memory can be turned off.** If you prefer a fresh slate every session, that option exists
+- **Incognito / temporary chats.** Both tools offer a no-memory mode for sensitive conversations you don't want retained
 
-## Practical tip
-**Give the AI context upfront** — it doesn't know who you are, your situation, or why you're asking.
-Instead of *"What should I do about Medicare?"* try *"I'm 72, recently moved to South Carolina, and have Parts A and B. I'm wondering if I need a supplemental plan..."*
+> Think of it like a colleague who keeps notes on your working relationship — they remember your preferences and background, but not every word of every meeting. And you can always ask to see their notes.
 
 ???
-This is one of the biggest "aha" moments in the presentation. Many people have started a new chat and been baffled when the AI has no memory of yesterday's conversation. Now they know why — and it stops feeling like a bug.
-
-Spend a moment on the analogy — it tends to land well and is easy to remember.
+Optional memory features: ChatGPT, Claude and Gemini now offer optional memory that carries across sessions. It's worth a brief mention — "some tools let you turn this on, so it remembers your preferences over time." But keep it brief. The default is no memory, and that's the more important thing to understand.
 
 The practical tip is the most actionable thing on this slide. Give people a concrete before/after. The difference in response quality between a vague question and a contextualized one is dramatic, and you can demonstrate it live.
-
-Optional memory features: Claude and ChatGPT both now offer optional memory that carries across sessions. It's worth a brief mention — "some tools let you turn this on, so it remembers your preferences over time." But keep it brief. The default is no memory, and that's the more important thing to understand.
 
 ---
 
@@ -245,7 +245,7 @@ AI models are trained up to a **specific date** — after which they have no kno
 ## Some AI tools can search the web
 Perplexity and others connect AI to live search — giving you current information with sources cited
 
-*We'll see this in Part 2*
+*We'll see this in the Tools & Practices section*
 
 ???
 This is a short slide — one minute is enough. The concept is simple.
@@ -356,6 +356,23 @@ Keep the tone measured — the goal is informed skepticism, not panic. The audie
 
 class: warning
 
+# Image Watermarking
+
+AI image watermarking is the practice of attaching information to an image so it can later be identified as AI-generated or traced back to its source. In 2026, the field is converging on a mix of provenance metadata such as C2PA, invisible pixel-level watermarks, and platform labeling to support transparency and compliance.
+
+- **Adoption is increasing**, with C2PA emerging as the main open standard for image provenance and authenticity records.
+- **Current systems are still fragile** because metadata is often stripped when images are uploaded, reposted, edited, or screenshotted.
+- Invisible watermarks can survive some compression and resizing, but many **can still be weakened or removed by determined attackers**.
+- **Watermarking does not prove truth by itself**; it helps record origin, but it cannot fully prevent spoofing, editing, or contradictory provenance signals.
+- **Regulation is accelerating adoption**, with EU AI Act transparency obligations for labeling AI-generated content taking effect on August 2, 2026.
+
+???
+C2PA (Coalition for Content Provenance and Authenticity) is an open technical standard for attaching tamper‑evident “content credentials” to digital media so anyone can see where a file came from and how it was edited. It is designed to make the origin and history of images, video, audio, and documents transparent in an ecosystem where AI‑generated and heavily edited content are common.
+
+---
+
+class: warning
+
 # AI Slop
 
 The flood of **low-quality, AI-generated content** now polluting the internet
@@ -390,12 +407,11 @@ A useful frame: the internet has always had misinformation. AI just massively lo
 
 ---
 
-class: section
+class: title
 
-# Part 2
-## Tools & Practice
+class: center, middle
 
-*~30 minutes · Live demos*
+.full[![](assets/tools.png)]
 
 ---
 
@@ -447,7 +463,7 @@ The car analogy lands consistently well with this audience.
 
 - **Be specific** — vague questions get vague answers
 - **Give context** — tell it who you are and why you're asking
-- **Ask for a format** — *"explain simply" / "give me a short list" / "write it as a letter"*
+- **Ask for a format** — *"explain simply"*  | *"give me a short list"*  | *"write it as a letter"*
 - **Follow up** — say "that's not quite right" and it adjusts
 
 > Think of it as a conversation, not a search box.
@@ -475,6 +491,9 @@ class: demo
 
 # Perplexity — AI + Search
 
+.right.micro[
+    ![](assets/perplexity-qrcode.png)
+]
 **The safest starting point for questions about the real world**
 
 ## What makes it different
@@ -549,9 +568,6 @@ class: demo
 - Illustrating stories or memories
 - Fun — seeing what your prompt produces
 
-## Your turn
-*Suggest a scene and we'll generate it live*
-
 > **Important:** AI image tools can also create realistic fake photos of real people — this is the technology behind many deepfakes.
 
 ???
@@ -579,9 +595,9 @@ What AI photo restoration can do:
 
 The caveats — **important to understand**:
 
-- AI is making an educated guess about what was there — it is not recovering lost information
+- **AI is making an educated guess** about what was there — it is not recovering lost information
 - Colorization in particular is invented, not historical
-- Filled-in details (a missing face, a torn corner) are plausible reconstructions, not the original
+- Filled-in details (a missing face, a torn corner) are **plausible reconstructions**, not the original
 - The result can look strikingly realistic while being partly fictional
 - Always preserve the original unedited file — the restored version is an interpretation, not a replacement
 ]
@@ -596,17 +612,20 @@ class: demo
 
 # NotebookLM — Interact with Your Own Documents
 
+.right.micro[
+    ![](assets/notebooklm-qrcode.png)
+]
+
 **Google's NotebookLM lets you upload documents and have a conversation with them**
 
 ## What it does
-- Upload PDFs, articles, Google Docs, or web pages
+- Upload PDFs, articles, Google Docs, web pages, or YouTube videos
 - Ask questions about the content in plain English
 - Get summaries, explanations, and answers drawn directly from your documents
-- **Audio overview** — generates a natural-sounding podcast-style discussion of your material
+- **Studio** — generates a podcast-style audio overviews, slide decks, infographics and more from your sources
 
 ## Practical uses for your audience
-- Upload Medicare documents and ask "what does this actually mean?"
-- Upload HOA rules and ask "what are the rules about fences?"
+- Upload complex documents and ask "what does this actually mean?"
 - Upload a medical report and ask for a plain-English explanation
 - Upload research on a topic you care about and explore it conversationally
 
@@ -623,15 +642,45 @@ NotebookLM is free with a Google account, which is a significant advantage for e
 
 ---
 
+class: demo
+
+# Creating Your Own Custom AI
+
+Today’s major AI platforms all let users create specialized assistants — but they do it in different ways.
+
+- **ChatGPT Custom GPTs:** Build a reusable AI assistant with your own instructions, knowledge, and sharing options.
+- **Gemini Gems:** Create and save custom AI experts tailored to specific goals, preferences, or recurring tasks.
+- **Claude Projects:** Organize instructions and uploaded materials into a persistent project-based assistant.
+- **NotebookLM:** Upload your own sources and turn them into a grounded AI for research, summaries, study guides, and Q&A.
+
+<hr>
+
+.left.w200[
+![](assets/chatbot-user.png)
+]
+
+.right.w200[
+![](assets/schh-ai-assistant-qrcode.png)
+]
+
+## Example
+
+**A Sun City AI Assistant built using Notebook LM**  
+[https://www.spartina.io/schh-ai-assistant](https://www.spartina.io/schh-ai-assistant)
+
+
+
+---
+
 # Where to Start
 
 ## Today, try one of these
 
-1. **Perplexity** *(perplexity.ai)* — search a question you've been wondering about. Check the sources.
+1. **Perplexity** — search a question you've been wondering about. Check the sources.
 
 2. **ChatGPT, Claude or Gemini** — ask for help drafting a letter or email you've been putting off.
 
-3. **NotebookLM** *(notebooklm.google.com)* — upload a confusing document and ask it to explain the key points.
+3. **NotebookLM** — upload a confusing document and ask it to explain the key points.
 
 ## Remember
 
