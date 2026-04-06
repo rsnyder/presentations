@@ -138,8 +138,6 @@ An AI you talk to — **in plain English**
 
 > You talk to it the way you'd talk to a knowledgeable friend.
 
-**Quick show of hands** — how many of you have tried a chatbot in the past six months?
-
 ???
 Start with the show of hands — most hands will go up, which validates that the audience already has firsthand experience. This is useful framing. They're not starting from zero.
 
@@ -407,20 +405,20 @@ class: section
 Three leading AI chatbots — all capable, each with its own strengths
 
 .left-col[
-## ChatGPT
-**OpenAI**
+.logo[![](assets/logos/openai.svg)] **ChatGPT**  
+*OpenAI*  
 The name most people know.
 Widest recognition, broad capabilities, large user community.
 
-## Claude
-**Anthropic**
+.logo[![](assets/logos/claude.svg)] **Claude**  
+*Anthropic*  
 Known for thoughtful, nuanced responses.
 Particularly strong at writing and analysis.
 ]
 
 .right-col[
-## Gemini
-**Google**
+.logo[![](assets/logos/gemini.svg)] **Gemini**  
+*Google*  
 Integrated directly into Gmail, Google Docs, and other Google services you already use.
 If you use Google, you likely already have access.
 ]
@@ -542,11 +540,11 @@ class: demo
 **AI can now create images from a text description alone**
 
 ## Today's tools
-- **ChatGPT** (via GPT-4o) — generates photorealistic and illustrated images from prompts
-- **Google Gemini** — similar capability, integrated with Google's ecosystem
-- **Adobe Firefly** — designed for practical creative use, commercially safe
+- **ChatGPT** (via GPT-5.x) — generates photorealistic and illustrated images from prompts
+- **Google Nano Banana** — similar capability, integrated with Google's ecosystem
 
 ## What people use it for
+- Photo restoration
 - Creating cards, flyers, and invitations
 - Visualizing home decor ideas before committing
 - Illustrating stories or memories
@@ -570,7 +568,7 @@ Note on tool names: double-check the specific product names before the presentat
 
 class: demo
 
-# NotebookLM — Talk to Your Own Documents
+# NotebookLM — Interact with Your Own Documents
 
 **Google's NotebookLM lets you upload documents and have a conversation with them**
 
@@ -605,7 +603,7 @@ NotebookLM is free with a Google account, which is a significant advantage for e
 
 1. **Perplexity** *(perplexity.ai)* — search a question you've been wondering about. Check the sources.
 
-2. **Claude or ChatGPT** — ask for help drafting a letter or email you've been putting off.
+2. **ChatGPT, Claude or Gemini** — ask for help drafting a letter or email you've been putting off.
 
 3. **NotebookLM** *(notebooklm.google.com)* — upload a confusing document and ask it to explain the key points.
 
