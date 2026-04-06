@@ -623,20 +623,6 @@ class: title
 
 # Thank You
 
-**SCHH Computer Club**
+**Ron Snyder**  
+[ron@snyderjr.com](mailto:ron@snyderjr.com)
 
----
-
-*Questions? Suggestions for future topics?*
-
-**Resources mentioned today:**
-- perplexity.ai
-- claude.ai
-- chatgpt.com
-- notebooklm.google.com
-- gemini.google.com
-
-???
-Stay after if you can — the one-on-one conversations that happen after sessions like this are often where the most useful help happens. People who were too shy to ask in the group will often come up individually with specific questions about their own situation.
-
-Consider leaving a simple one-page handout with the URLs and the three key safety rules: verify anything important, don't share sensitive personal information, slow down before you believe or share surprising content.
