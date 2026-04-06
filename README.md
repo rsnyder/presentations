@@ -1,2 +1,1 @@
-# presentations
-Presentations in Remark format.
+- [AI Essentials](ai-essentials)

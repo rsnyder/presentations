@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI and You — SCHH Computer Club</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,700;1,400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+  /* ── Base ── */
+  body { font-family: "Source Sans Pro", "Microsoft Yahei", sans-serif; }
+
+  /* ── All slides ── */
+  .remark-slide-content {
+    background: #ffffff;
+    color: #2c2c2a;
+    font-size: 24px;
+    line-height: 1.55;
+    /* padding: 2.2em 3em 1.5em; */
+  }
+
+  /* ── Headings ── */
+  .remark-slide-content h1 {
+    /* font-family: 'Merriweather', serif; */
+    font-size: 1.45em;
+    font-weight: 700;
+    color: #13375e;
+    border-bottom: 3px solid #EF9F27;
+    padding-bottom: 0.2em;
+    margin: 0 0 0.55em;
+    line-height: 1.25;
+  }
+  .remark-slide-content h2 {
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #185fa5;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin: 0.9em 0 0.25em;
+  }
+  .remark-slide-content h3 {
+    font-size: 0.95em;
+    font-weight: 600;
+    color: #0f6e56;
+    margin: 0.6em 0 0.15em;
+  }
+
+  /* ── Lists ── */
+  .remark-slide-content ul {
+    padding-left: 1.3em;
+    margin: 0.3em 0 0.5em;
+  }
+  .remark-slide-content li {
+    margin-bottom: 0.45em;
+  }
+  .remark-slide-content li li {
+    font-size: 0.9em;
+    margin-bottom: 0.3em;
+    color: #5f5e5a;
+  }
+
+  /* ── Inline ── */
+  .remark-slide-content strong { color: #13375e; }
+  .remark-slide-content em    { color: #0f6e56; font-style: italic; }
+
+  /* ── Blockquote = callout ── */
+  .remark-slide-content blockquote {
+    background: #f0f7ff;
+    border-left: 4px solid #378add;
+    margin: 0.8em 0;
+    padding: 0.6em 1em;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.9em;
+    color: #042c53;
+  }
+  .remark-slide-content blockquote p { margin: 0; }
+
+  /* ── Code ── */
+  .remark-slide-content code {
+    background: #f1efe8;
+    border-radius: 4px;
+    padding: 0 5px;
+    font-size: 0.85em;
+    color: #3d3d3a;
+  }
+
+  /* ── Horizontal rule = divider ── */
+  .remark-slide-content hr {
+    border: none;
+    border-top: 1px solid #dddcd4;
+    margin: 0.8em 0;
+  }
+
+  /* ── Slide number ── */
+  .remark-slide-number {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 11px;
+    color: #b4b2a9;
+  }
+
+  /* ── Title slide ── */
+  .title .remark-slide-content {
+    background: #0d2240;
+    color: #dddcd4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .title .remark-slide-content h1 {
+    color: #ffffff;
+    border-bottom-color: #EF9F27;
+    font-size: 1.9em;
+    margin-bottom: 0.3em;
+  }
+  .title .remark-slide-content p {
+    color: #9fe1cb;
+    font-size: 0.85em;
+    margin: 0.25em 0;
+  }
+  .title .remark-slide-content strong { color: #EF9F27; }
+
+  /* ── Section divider slides ── */
+  .section .remark-slide-content {
+    background: #13375e;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section .remark-slide-content h1 {
+    color: #ffffff;
+    border-bottom-color: #EF9F27;
+    font-size: 2em;
+  }
+  .section .remark-slide-content p {
+    color: #9fe1cb;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+  }
+
+  /* ── Warning slides (deepfakes, hallucinations) ── */
+  .warning .remark-slide-content {
+    background: #fff8f0;
+    border-top: 6px solid #EF9F27;
+  }
+  .warning .remark-slide-content h1 {
+    color: #633806;
+    border-bottom-color: #EF9F27;
+  }
+
+  /* ── Demo slides ── */
+  .demo .remark-slide-content {
+    background: #f0faf6;
+    border-top: 6px solid #1d9e75;
+  }
+  .demo .remark-slide-content h1 {
+    color: #04342c;
+    border-bottom-color: #1d9e75;
+  }
+  .demo .remark-slide-content h2 { color: #0f6e56; }
+
+  /* ── Two-column layout ── */
+  .left-col  { float: left;  width: 47%; }
+  .right-col { float: right; width: 47%; }
+  .clear     { clear: both; }
+
+  /* ── Tag/badge ── */
+  .tag {
+    display: inline-block;
+    font-size: 0.5em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-left: 8px;
+    font-family: 'Source Sans 3', sans-serif;
+  }
+  .tag-amber { background: #faeeda; color: #633806; border: 1px solid #EF9F27; }
+  .tag-green { background: #e1f5ee; color: #04342c; border: 1px solid #1d9e75; }
+  .tag-blue  { background: #e6f1fb; color: #042c53; border: 1px solid #378add; }
+
+  /* ── Presenter notes ── */
+  .remark-notes-area, .remark-notes {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  p { 
+    margin: 0.4em 0; 
+    line-height: 1.4;
+  }
+  .remark-slide-content li {
+    margin-bottom: 0.0;
+    line-height: 1.3;
+  }
+</style>
+</head>
+<body>
+<body>
+  <textarea id="source"></textarea>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+  <script>
+    var slideshow = remark.create({
+      sourceUrl: 'index.md',
+      ratio: '16:9',
+      navigation: { scroll: false, touch: true },
+      slideNumberFormat: '%current% / %total%',
+      countIncrementalSlides: false,
+      highlightStyle: 'github'
+    });
+  </script>
+</body>
+</html>
