@@ -15,7 +15,7 @@ class: center, middle
 ]
 
 **SCHH Computer Club Hour**   
-April 10, 2026
+April 24, 2026
 
 Ron Snyder ([ron@snyderjr.com](mailto:ron@snyderjr.com))
 
@@ -668,6 +668,27 @@ Today’s major AI platforms all let users create specialized assistants — but
 **A Sun City AI Assistant built using Notebook LM**  
 [https://www.spartina.io/schh-ai-assistant](https://www.spartina.io/schh-ai-assistant)
 
+
+
+---
+
+# AI Cheat Sheet
+
+.left[
+## Handy AI Tools Reference Guide
+
+
+[.w200[
+![](assets/qrcode.png)
+]](/ai-essentials/ai-cheat-sheet.jpg)
+]
+
+.right.medium[
+.large.center.shadow[
+
+[![](ai-cheat-sheet.jpg)](/ai-essentials/ai-cheat-sheet.jpg)
+]]
+https://rsnyder.github.io/presentations/ai-essentials/ai-cheat-sheet.jpg
 
 
 ---
