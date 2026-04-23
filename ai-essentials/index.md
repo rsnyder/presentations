@@ -422,7 +422,7 @@ class: center, middle
 
 
 [.w200[
-![](assets/qrcode.png)
+![](assets/cheat-sheet-qrcode.jpg)
 ]](/presentations/ai-essentials/ai-cheat-sheet.jpg)
 ]
 
