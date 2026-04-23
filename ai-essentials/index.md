@@ -639,8 +639,8 @@ class: demo
 .right.medium[
 .image-grid[
 
-[![](assets/home/base.jpg)](assets/home/base.jpg)
-Base Image
+[![](assets/home/original.jpg)](assets/home/original.jpg)
+Original Image
 
 [![](assets/home/gpt-image-2.jpg)](assets/home/gpt-image-2.jpg)
 ChatGPT Image 2
@@ -649,6 +649,36 @@ ChatGPT Image 2
 Nano Banana 2
 
 [![](assets/home/nano-banana-pro.jpg)](assets/home/nano-banana-pro.jpg)
+Nano Banana Pro
+
+]
+]
+
+
+---
+
+class: demo
+
+# Example: Photo Restoration
+
+.left.medium[
+## Prompt
+
+]
+
+.right.medium[
+.image-grid[
+
+[![](assets/restore/original.jpeg)](assets/restore/original.jpeg)
+Original Image
+
+[![](assets/restore/gpt-image-2.jpg)](assets/restore/gpt-image-2.jpg)
+ChatGPT Image 2
+
+[![](assets/restore/nano-banana-2.jpg)](assets/restore/nano-banana-2.jpg)
+Nano Banana 2
+
+[![](assets/restore/nano-banana-pro.jpg)](assets/restore/nano-banana-pro.jpg)
 Nano Banana Pro
 
 ]
