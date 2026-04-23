@@ -603,6 +603,61 @@ Note on tool names: double-check the specific product names before the presentat
 
 class: demo
 
+# Example: Photo Creation
+
+.left.medium[
+## Prompt
+>A small coastal cottage at golden hour, surrounded by tall grasses and wildflowers, with a wooden porch facing the ocean. Warm sunlight, soft shadows, light breeze visible in the grass. Realistic style, natural colors, high detail, 35mm photography, shallow depth of field. Ultra-high resolution, 4K, sharp focus, clean detail.
+]
+
+.right.medium[
+.image-grid[
+
+[![](assets/cottage/gpt-image-2.jpg)](assets/cottage/gpt-image-2.jpg)
+ChatGPT Image 2
+
+[![](assets/cottage/nano-banana-2.jpeg)](assets/cottage/nano-banana-2.jpeg)
+Nano Banana 2
+
+[![](assets/cottage/nano-banana-pro.jpeg)](assets/cottage/nano-banana-pro.jpeg)
+Nano Banana Pro
+
+]
+]
+
+---
+
+class: demo
+
+# Example: Photo Editing
+
+.left.medium[
+## Prompt
+>Edit this smartphone photo into a professional real estate image for sales material. Keep the home accurate. Remove the automobiles and plant netting. Do not add features or change the structure. Apply realistic cleanup and enhancement, crop slightly tighter, and use a subtly elevated viewpoint if possible. Remove shadows.
+]
+
+.right.medium[
+.image-grid[
+
+[![](assets/home/base.jpg)](assets/home/base.jpg)
+Base Image
+
+[![](assets/home/gpt-image-2.jpg)](assets/home/gpt-image-2.jpg)
+ChatGPT Image 2
+
+[![](assets/home/nano-banana-2.jpg)](assets/home/nano-banana-2.jpg)
+Nano Banana 2
+
+[![](assets/home/nano-banana-pro.jpg)](assets/home/nano-banana-pro.jpg)
+Nano Banana Pro
+
+]
+]
+
+---
+
+class: demo
+
 # Example: Photo Restoration
 
 .left-col.viewer.condense[
