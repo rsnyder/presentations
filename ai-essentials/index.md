@@ -415,6 +415,26 @@ class: center, middle
 
 ---
 
+# AI Cheat Sheet
+
+.left[
+## Handy AI Tools Reference Guide
+
+
+[.w200[
+![](assets/qrcode.png)
+]](/presentations/ai-essentials/ai-cheat-sheet.jpg)
+]
+
+.right.medium[
+.large.center.shadow[
+
+[![](ai-cheat-sheet.jpg)](/presentations/ai-essentials/ai-cheat-sheet.jpg)
+]]
+https://rsnyder.github.io/presentations/ai-essentials/ai-cheat-sheet.jpg
+
+---
+
 # Chatbots - The Main Players
 
 Three leading AI chatbots — all capable, each with its own strengths
@@ -667,29 +687,6 @@ Today’s major AI platforms all let users create specialized assistants — but
 
 **A Sun City AI Assistant built using Notebook LM**  
 [https://www.spartina.io/schh-ai-assistant](https://www.spartina.io/schh-ai-assistant)
-
-
-
----
-
-# AI Cheat Sheet
-
-.left[
-## Handy AI Tools Reference Guide
-
-
-[.w200[
-![](assets/qrcode.png)
-]](/ai-essentials/ai-cheat-sheet.jpg)
-]
-
-.right.medium[
-.large.center.shadow[
-
-[![](ai-cheat-sheet.jpg)](/ai-essentials/ai-cheat-sheet.jpg)
-]]
-https://rsnyder.github.io/presentations/ai-essentials/ai-cheat-sheet.jpg
-
 
 ---
 
