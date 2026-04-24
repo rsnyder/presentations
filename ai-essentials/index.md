@@ -687,6 +687,7 @@ Nano Banana Pro
 ---
 
 class: demo
+exclude: true
 
 # Example: Photo Restoration
 
